@@ -1,0 +1,93 @@
+.header {
+    box-sizing: border-box;
+  }
+  
+  /* Main Home Banner and Input Search Container r*/
+  .home-banner {
+    /* "../" for back to main folder */
+    background-image: url(https://i.postimg.cc/XNw65Ymz/home-banner.png);
+    background-size: cover;
+    background-repeat: round;
+    height: 450px;
+  }
+  
+  .input-search-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+  }
+  
+  .inputIcon {
+    position: absolute;
+    left: 5px;
+    font-size: 25px;
+    vertical-align: middle;
+    color: #aaa;
+  }
+  
+  .inputForm {
+    width: 225px;
+    height: 40px;
+    padding-left: 28px;
+    color: gray;
+  }
+  
+  /* .inputLabel-default {
+    position: absolute;
+    left: 30px;
+    color: gray;
+    font-weight: 350;
+    font-size: 15px;
+    margin-top: 8px;
+    transition-duration: 0.3s;
+  } */
+  .inputLabel-focusIn {
+    position: absolute;
+    left: 30px;
+    color: #9b9b9b;
+    font-size: 10px;
+    margin-top: 1px;
+  }
+  .dropdown-form {
+    padding: 10px;
+  }
+  
+  .dropdown-form .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .dropdown-form input[type="email"],
+  .dropdown-form input[type="password"] {
+    /* width: 100%; */
+    width: 225px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .dropdown-form button[type="submit"] {
+    background-color: rgb(201, 34, 34);
+    /* gap: 20px; */
+    color: #fff;
+    border: 2px solid black;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .dropdown-form button[type="submit"]:hover {
+    background-color: rgb(60, 159, 60);
+  }
+  .btn{
+    border: 1px solid black;
+    height: 40px;
+    background-color: rgb(227, 24, 24);
+  }
+  
